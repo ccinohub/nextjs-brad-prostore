@@ -6,14 +6,18 @@ const sampleData = {
       name: 'Godccino',
       email: 'admin@example.com',
       password: hashSync('123456', 10),
-      address: 'Office',
+      address: {
+        'Country': 'Example'
+      },
       role: 'admin'
     },
     {
       name: 'Minata',
       email: 'user@example.com',
       password: hashSync('123456', 10),
-      address: 'Home',
+      address: {
+        'Country': 'Example'
+      },
       role: 'user'
     },
   ],
